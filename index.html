@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxanium:200,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>Devon's Portfolio</title>
+</head>
+<body>
+
+  <!-- banner -->
+  <div id="test-banner" class="white-text banner-img">
+
+    <!-- navbar -->
+    <nav class="transparent edit-nav">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Devon</a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down section">
+          <li>
+            <a class="highlight" href="#about">About</a>
+          </li>
+          <li>
+            <a class="highlight" href="#certification">Certifications</a>
+          </li>
+          <li>
+            <a class="highlight" href="#project">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- sidenav -->
+    <ul id="nav-mobile" class="sidenav section">
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#certification">Certifications</a>
+      </li>
+      <li>
+        <a href="#project">Projects</a>
+      </li>
+    </ul>
+
+    <!-- banner -->
+    <section class="banner-section center-align valign-wrapper" style="width: 100%; height: 75%; position: absolute;">
+      <div class="container">
+        <p class="greeting-text">
+          Hello, I'm Devon
+        </p>
+        <div class="banner">
+          <p class="banner-role">
+            Cloud Solutions Architect - Developer
+          </p>
+          <a id="btn-contact" class="btn-flat" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <br>
+
+  <!-- about -->
+  <div class="row reveal fade-right">
+    <div class="col s12 m4 l4 center offset-m1 offset-l1" style="min-height: 55vh;">
+      <br>
+      <img src="images/Nuage_cloud.svg" alt="cloud" class="responsive-img cloud-hover">
+      <p style="font-size: 60px; margin-bottom: -8vh;">I'm A</p>
+      <p style="font-size: 70px; font-weight: bold; margin-bottom: -8vh;">Cloud</p>
+      <p style="font-size: 70px; font-weight: bold; margin-bottom: -8vh;">Solutions</p>
+      <p style="font-size: 70px; font-weight: bold;">Architect</p>
+    </div>
+
+    <div class="col s12 m6 l6 valign-wrapper" style="min-height: 65vh;">
+      <span>
+        <img class="responsive-img" src="images/awsdiagram.png" alt="diagram">
+      </span>
+    </div>
+  </div>
+
+  <div id="about-lrn" class="row reveal fade-bottom grey lighten-5" style="margin-bottom: 0;">
+    <div class="col s12 m6 l6 center offset-m3 offset-l3 valign-wrapper" style="min-height: 50vh;">
+      <p style="font-size: 60px;">With A Passion For Coding and Learning</p>
+    </div>
+  </div>
+
+  <div id="about-me-section" class="row reveal fade-left">
+    <div class="col s12 m5">
+      <img class="glasses-img" src="images/glasses.jpg" alt="glasses">
+    </div>
+    <div class="col s12 m7 center">
+      <h3 id="about" class="section scrollspy">More About Me</h3>
+      <p style="font-size: 1.2em;">I started my coding journey by learning from and contributing to <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>. The curriculum started with Ruby, then HTML, CSS, and JavaScript.</p>
+      <p style="font-size: 1.2em;">After finishing, I was eager to learn more, making projects to learn some JavaScript frameworks such as Vue JS and React.</p>
+      <p style="font-size: 1.2em;">From there I learned Python, which helped solidify my foundational knowledge I learned previously. Which led to exciting projects utilizing Django, Pygal, and deep learning concepts as well.</p>
+      <p style="font-size: 1.2em;">With the onset of the pandemic and industries shifting more towards cloud computing, I wanted to understand it more. I first learned Azure then AWS and became certified in both cloud computing services.</p>
+    </div>
+  </div>
+
+  <!-- certifications -->
+  <div class="row reveal fade-right" style="min-height: 60vh">
+    <br>
+    <h3 id="certification" class="center section scrollspy">Certifications</h3>
+    <div class="col s12 m4 center offset-m2 img-hover">
+      <figure>
+        <a href="https://www.credly.com/badges/bec216b3-d8c3-4a19-94e2-614e2530c837" target="_blank">
+          <img src="images/azure-fundamentals-600x600.png" alt="azure fundamentals badge" class="responsive-img badge-img">
+        </a>
+      </figure>
+      <span style="font-size: 18px;">Microsoft Certified: Azure Fundamentals</span>
+    </div>
+    <div class="col s12 m4 center img-hover">
+      <figure>
+        <a href="https://www.credly.com/badges/f3fa4a65-9d21-48a7-afd7-e45255f1ed4d" target="_blank">
+          <img src="images/AWS-SolArchitect-Associate-2020.png" alt="aws solutions architect badge" class="responsive-img badge-img">
+        </a>
+      </figure>
+      <span style="font-size: 18px;">AWS Certified Solutions Architect - Associate</span>
+    </div>
+  </div>
+  <br>
+
+  <!-- projects -->
+  <div class="projects reveal fade-bottom grey lighten-5" style="min-height: 60vh;">
+    <div class="row">
+      <!-- <h5 id="project" class="section scrollspy" style="margin-left: 50px;">My Work</h5> -->
+      <br>
+      <h3 id="project" class="section scrollspy" style="margin-left: 50px;">Projects</h3>
+      <ul class="card__list">
+        <li>
+          <a href="https://github.com/defitjo/dirty-kicks" target="_blank" class="cards">
+            <img src="images/dirtykicks.png" alt="dirty kicks" class="card__image">
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Dirty Kicks</h3>
+                </div>
+              </div>
+              <p class="card__description">An ecommerce app built using Vue JS and Django with user authentication and order processing</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/defitjo/rn-library" target="_blank" class="cards">
+            <img src="images/rnlibrary1.png" alt="rn library" class="card__image">
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">React Native Library</h3>
+                </div>
+              </div>
+              <p class="card__description">A React Native app built using Expo CLI to store book information.</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/defitjo/mean-todo-app" target="_blank" class="cards">
+            <img src="images/meantodo.png" alt="mean todo" class="card__image">
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Mean Todo</h3>
+                </div>
+              </div>
+              <p class="card__description">A To-Do app using a MEAN Stack.</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://note-pwa-6d3b4.web.app/" target="_blank" class="cards">
+            <img src="images/quicknote.png" alt="quick note" class="card__image">
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Quick Note</h3>
+                </div>
+              </div>
+              <p class="card__description">A Progressive Web App with Firebase/Firestore to authenticate users and store notes.</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/defitjo/task-manager" target="_blank" class="cards">
+            <img src="images/taskmanager.png" alt="task manager" class="card__image">
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Task Manager</h3>
+                </div>
+              </div>
+              <p class="card__description">React Redux app using Firebase/Firestore and Semantic UI to authenticate users and process notifications in real time.</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://agile-springs-70994.herokuapp.com/" target="_blank" class="cards">
+            <img src="images/djangodjournal.png" alt="django djournal" class="card__image">
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Django Djournal</h3>
+                </div>
+              </div>
+              <p class="card__description">Journal app built using Django to authenticate users and store journal entries.</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/defitjo/Gaming-Database" target="_blank" class="cards">
+            <img src="images/gamedatabase.png" alt="game database" class="card__image">
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Game Database</h3>
+                </div>
+              </div>
+              <p class="card__description">Using MongoDB, Node.js, Graphql, and React to store and retrieve gaming data.</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/defitjo/machine-learning-horses-or-human" target="_blank" class="cards">
+            <img src="images/deeplearning.png" alt="deep learning" class="card__image">
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                <div class="card__header-text">
+                  <h3 class="card__title">Deep Learning</h3>
+                </div>
+              </div>
+              <p class="card__description">Utilizing transfer learning to create a Convolutional Neural Network that uses MobileNet v2 to classify horses or humans.</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <br>
+
+  <!-- contact me -->
+  <div id="contact" class="row center-align reveal fade-bottom" style="min-height: 60vh;">
+    <div class="container">
+      <h3>Get In Touch</h3>
+      <br>
+      <br>
+      <form id="contact-form" action="https://formspree.io/f/xbjwyoyd" method="post" class="col s12 m6 l6 offset-m3 offset-l3">
+        <div class="row">
+          <div class="input-field col s12 m12 l12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="contact-name" type="text" class="validate" name="name">
+            <label for="contact-name">Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m12 l12">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email" class="validate" name="email">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m12 l12">
+            <i class="material-icons prefix">mode_edit</i>
+            <textarea id="textarea" class="validate materialize-textarea" name="message"></textarea>
+            <label for="textarea">Message</label>
+          </div>
+        </div>
+        <button id="contact-form-btn" class="btn waves-effect waves-light btn-large blue lighten-1" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="page-footer grey lighten-2 center">
+    <span><a href="https://www.github.com/defitjo" target="_blank"><i class="fa-brands fa-github" style="color: black; margin-right: 20px; font-size: 20px;"></i></a></span>
+    <span style="color: black; font-size: 20px;">|</span>
+    <span style="color: black; margin-left: 20px; font-size: 20px;">Devon</span>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
